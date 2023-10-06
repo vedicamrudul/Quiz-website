@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Slab:wght@300&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="quiz.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <i class="fa-brands fa-quinscape fa-xl"></i>
+            <div>
+                <h3>QUIZ GATE</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- starting display -->
+    <div class="start">
+        <div class="start-image">
+            <img width="400px" src="1-removebg-preview.png" alt="cant load">
+        </div>
+
+        <div class="Start-head ">
+            <h3>Take our quiz to test your general knowledge!</h3>
+        </div>
+        <button class=" startbtn btn" id="startbtn ">START</button>
+    </div>
+
+    <!-- instructions display -->
+    <div class="instructions hide">
+        <div class="instruction-container">
+            <h3 class="instruction-heading">Instructions for the quiz:</h3>
+            <ol class="instruction-list">
+                <li>You can choose one option.</li>
+                <li>For right answers, the color will change to green.</li>
+                <li>For wrong answers, color will change to red.</li>
+                <li>There is no time limit.</li>
+                <li>The score will be displayed at the end.</li>
+            </ol>
+            <button class="proceedbtn btn">Proceed</button>
+        </div>
+    </div>
+
+    <!-- questions display -->
+    <div class="question-container hide instructions">
+        <div class="questions">
+            <h2 class="question">This is a sample question</h2>
+            <ol class="answer-btn ">
+            </ol>
+            <button class="nextbtn btn">Next</button>
+        </div>
+    </div>
+
+    <!-- score -->
+    <div class="instructions hide score">
+        <div class="instruction-container score-container">
+           <h1 class="scoretag">Score</h1>
+           <div class="buttons-score">
+            <button class="PlayAgain btn">play again</button>
+            <button class="EndQuiz btn">End Quiz</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="bye instructions">
+        <div class="instruction-container">
+            <img width="400px" src="Orange_Pink_and_Blue_Book_CharacterPeople_Digital_Feedback_Sticker-2-removebg.png" alt="">
+            <button class="PlayAgain2 btn">Play Again</button>
+        </div>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
